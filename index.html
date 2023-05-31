@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <title>Encriptador Challenge Rolando Santos</title>
+</head>
+<body>
+    <!-- logo -->
+    <main class="display-grid">
+        <div class="grid-item-1">
+            <img src="assets/svg/Logo.png" alt="Logo">
+        </div>
+
+    <!-- Escribe aqui tu mensaje -->
+        <div class="grid-item-2">
+            <textarea name="texto" id="inptTextArea" placeholder="Escribe aquí tu mensaje secreto"></textarea>
+            <div class="box-exclamation">
+                <small><em>*Solo letras minúsculas y sin acentos</em></small>
+            </div>
+
+    <!-- botones de acción -->
+            <div class="box-controls">
+                <button id="btnEncrypted">Encriptar</button>
+                <button id="btnDecrypted">Desencriptar</button>
+            </div>
+        </div>
+
+    <!-- casilla respuesta -->
+        <div class="grid-item-3">
+            <div class="box-result-encriptador">
+                <img class="pre-information" src="./assets/svg/Muñeco.svg" alt="empty message">
+                <h2 class="pre-information" >Ningún mensaje fue encontrado</h2>
+                <span class="pre-information" >Ingresa el texto que desees encriptar o desencriptar.</span>
+                <textarea id="outptTextArea" id="inpt_texto" placeholder="Ingresa el texto aquí"></textarea>
+                <button id="btnCopyResult">Copiar</button>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+       <div class="developer">
+          <small> <a target="_blank" href="https://github.com/RolandoSantos09">Rolando Santos ✔ </a></small>
+       </div>
+    </footer>
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
